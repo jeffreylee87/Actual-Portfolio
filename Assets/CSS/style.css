@@ -132,3 +132,38 @@ body {
       background: rgba(0, 0, 0, 0.4);
     }
   }
+
+/* carousel css */
+  .caro {
+      margin-top: 10%;
+      font-family: "Orbitron";
+  }
+
+  .btn-large {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .firstBack {
+    background-image: url("../Images/randm.jpg");
+    background-size: cover;
+  }
+
+  .secondBack {
+    background-image: url("../Images/dropoff.png");
+    background-size: cover;
+    color: black;
+  }
+
+  .btn-large {
+    margin: 2%;
+  }
+
+  .footer {
+    font-family: "Orbitron";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }

@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: normal 16px/24px "Open Sans", Arial, sans-serif;
+  font: normal 16px/24px "Orbitron", Arial, sans-serif;
 }
 
 .card {
@@ -66,14 +66,14 @@ body {
   transition: opacity 1s linear 0s;
 }
 
-.back h2 {
-  font: 700 48px/64px "Open Sans";
+.back h4 {
+  font: 700 48px/64px "Orbitron";
   margin: 0;
   color: #133d66;
 }
 
-.back h3 {
-  font: 400 24px/32px "Open Sans";
+.back h5 {
+  font: 400 24px/32px "Orbitron";
   margin: 0;
   color: #acd6ff;
 }
@@ -106,4 +106,14 @@ body {
 
 .container:hover .front {
   opacity: 0;
+}
+
+.footer {
+  font-family: "Orbitron";
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }

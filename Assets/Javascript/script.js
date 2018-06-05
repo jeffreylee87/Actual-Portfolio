@@ -1,7 +1,8 @@
+//function to navigate to other pages
 function changeToSecondPage() {
     window.location.href = "secondpage.html";
 };
-
+//all the lock page stuff
 $(".fa-lock").draggable({
     revert: true,
     start: function(event, ui) {
@@ -23,5 +24,19 @@ $(".fa-lock").draggable({
       }
     
   });
+//carousel mover on page 3
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
 
-  
+
+  //misc
+
+//   if (screen.width <= 699) {
+//     $(".front").empty();
+//     }
+
+// if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+//     $(".front").empty();
+//  }
