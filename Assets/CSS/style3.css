@@ -27,6 +27,12 @@ body {
     color: black;
   }
 
+  @media only screen and (max-width: 699px) {
+    .secondBack {
+        background-size: auto;
+    }
+}
+
   .btn-large {
     margin: 2%;
   }
