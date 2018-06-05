@@ -2,6 +2,11 @@ body {
     background: linear-gradient(90deg, #485563 10%, #29323c 90%);
   }
 
+  html,
+body {
+  height: 100%;
+}
+
   .caro {
       margin-top: 10%;
       font-family: "Orbitron";
