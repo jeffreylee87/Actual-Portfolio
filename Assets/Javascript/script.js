@@ -12,31 +12,11 @@ $(".fa-lock").draggable({
   
       if (ui.position.left < 30 || ui.position.left > 270 || ui.position.top < 30 || ui.position.top > 270) {
   
-        // Unlock
-    //     $(".fa-check").addClass("return");
-    //     $(".fa-lock").addClass("away");
-    //     $(".lock").addClass("good");
-    //   }
-  
-    //   $(".bubble").removeClass("expand");
       }
       changeToSecondPage();
       }
     
   });
 //carousel mover on page 3
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });
+  
 
-
-  //misc
-
-//   if (screen.width <= 699) {
-//     $(".front").empty();
-//     }
-
-// if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-//     $(".front").empty();
-//  }
