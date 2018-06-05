@@ -29,7 +29,7 @@ body {
 
   @media only screen and (max-width: 699px) {
     .secondBack {
-        background-size: 480px 480px;
+        background-size: 320px 320px;
     }
 }
 
