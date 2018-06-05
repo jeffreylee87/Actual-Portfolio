@@ -33,6 +33,11 @@ body {
     }
 }
 
+.thirdBack {
+    background-image: url("../Images/stage.jpg");
+    background-size: cover;
+  }
+
   .btn-large {
     margin: 2%;
   }
