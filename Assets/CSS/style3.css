@@ -7,7 +7,7 @@ body {
   height: 100%;
 }
 
-.firstPage {
+/* .firstPage {
     width: 400px;
     height: 400px;
     margin: 80px auto;
@@ -131,7 +131,7 @@ body {
     50% {
       background: rgba(0, 0, 0, 0.4);
     }
-  }
+  } */
 
 /* carousel css */
   .caro {
