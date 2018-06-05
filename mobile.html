@@ -8,43 +8,82 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="Assets/CSS/mobile.css">
-    <link rel="stylesheet" href="Assets/CSS/reset.css">
-    <title>About Me</title>
+    <!-- <link rel="stylesheet" href="Assets/CSS/reset.css"> -->
+    <title>About Me Mobile</title>
 
 </head>
 
 <body>
-
-            <div class="face back">
-                <h4 class="name">Jeffrey Lee</h4>
-                <h5>Full-Stack Developer</h5>
-                <div class="info">
-                    <p>
-                        <span class="property">
-                            <i class="fa fa-home"></i></span>
-                        <a class="link" href="./port.html" target="_blank">Portfolio</a>
-                    </p>
-                    <p>
-                        <span class="property">
-                            <i class="fa fa-linkedin"></i></span>
-                        <a class="link" href="https://www.linkedin.com/in/jeffrey-lee-65241119/" target="_blank">Linkedin</a>
-                    </p>
-                    <p>
-                        <span class="property">
-                            <i class="fa fa-github"></i></span>
-                        <a class="link" href="https://github.com/jeffreylee87" target="_blank">Github</a>
-                    </p>
+    <!-- handles all the dots in the background -->
+    <canvas id="canvas"></canvas>
+    <div class="table">
+        <div class="table-cell">
+            <div class="container">
+                <!-- builds the purple background -->
+                <svg class="background-svg" width="400px" height="300px" viewBox="0 0 400 300" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+                            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.095 0" in="shadowBlurOuter1"
+                                type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+                            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+                            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+                            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1"
+                                k3="1" result="shadowInnerInner1"></feComposite>
+                            <feColorMatrix values="0 0 0 0 0.647959184   0 0 0 0 0.549016553   0 0 0 0 0.549016553  0 0 0 0.35 0"
+                                in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <!-- sets the color below -->
+                        <!-- <g id="Artboard-1" fill="#8B65E4"> -->
+                            <g id="Artboard-1" fill="#303030">
+                            <path d="M187.785156,200 L180,232 L66,232 L58.2148437,200 L187.785156,200 Z" id="Rectangle-1" filter="url(#filter-1)"></path>
+                            <path d="M349.760339,49.1234675 L375.905579,277.733833 L199.999999,277.733834 L43.9648432,143.710938 L349.760339,49.1234675 Z"
+                                id="Triangle-1" filter="url(#filter-1)"></path>
+                            <path d="M399.8936,96.1889997 L29.4623426,250.140552 L0,36.4302476 L399.8936,96.1889997 Z"
+                                id="Triangle-2" filter="url(#filter-1)"></path>
+                        </g>
+                    </g>
+                </svg>
+                <div class="container-info">
+                    <h1>
+                        Hey!
+                        <br />I'm
+                        <span>Jeffrey Lee</span>,
+                        <span class="info">full-stack web developer</span>
+                    </h1>
+                    <div class="box">
+                    <a class="box-item" href="./port.html" target="_blank">
+                        <i class="fa fa-home"></i>
+                    </a>
+                   
+                        <a class="box-item" href="https://www.linkedin.com/in/jeffrey-lee-65241119/" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="box-item" href="https://github.com/jeffreylee87" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="footer">
-            <p>Jeffrey Lee - Email: jeffylee87@gmail.com - Phone #: 714-209-2563</p>
-          </div>
+        <p>Jeffrey Lee - Email: jeffylee87@gmail.com - Phone #: 714-209-2563</p>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Assets/Javascript/jquery.ui.touch-punch.min.js"></script>
-    <script type="text/javascript" src="Assets/Javascript/script.js"></script>
+    <script type="text/javascript" src="Assets/Javascript/mobile.js"></script>
 </body>
 
 </html>
