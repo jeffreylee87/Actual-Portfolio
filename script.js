@@ -12,15 +12,15 @@ $(".fa-lock").draggable({
       if (ui.position.left < 30 || ui.position.left > 270 || ui.position.top < 30 || ui.position.top > 270) {
   
         // Unlock
-        $(".fa-check").addClass("return");
-        $(".fa-lock").addClass("away");
-        $(".lock").addClass("good");
-      }
+    //     $(".fa-check").addClass("return");
+    //     $(".fa-lock").addClass("away");
+    //     $(".lock").addClass("good");
+    //   }
   
-      $(".bubble").removeClass("expand");
-      
+    //   $(".bubble").removeClass("expand");
+      }
       changeToSecondPage();
-    }
+      }
     
   });
 
