@@ -51,3 +51,19 @@ body {
     color: white;
     text-align: center;
  }
+
+ /* buttons */
+ #fixedbutton {
+  position: fixed;
+  top: 2%;
+  right: 2% ;
+}
+
+i {
+  color: white;
+}
+
+a:hover { 
+  background-color: white;
+  
+}

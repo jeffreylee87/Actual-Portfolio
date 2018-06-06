@@ -17,6 +17,7 @@ $(".fa-lock").draggable({
       }
     
   });
-//carousel mover on page 3
+
+  
   
 
