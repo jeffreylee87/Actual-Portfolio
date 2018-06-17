@@ -39,12 +39,17 @@ body {
   }
 
   .fourthBack {
-    background-image: url("../Images/matrix.jpg");
+    background-image: url("../Images/matrix2.jpg");
     background-size: cover;
   }
 
   .fifthBack{
     background-image: url("../Images/nodemysql.png");
+    background-size: cover;
+  }
+
+  .sixthBack{
+    background-image: url("../Images/destroyer.jpg");
     background-size: cover;
   }
 
