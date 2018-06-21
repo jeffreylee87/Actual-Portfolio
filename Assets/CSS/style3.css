@@ -34,7 +34,7 @@ body {
 }
 
 .thirdBack {
-    background-image: url("../Images/stage.jpg");
+    background-image: url("../Images/hangman.jpg");
     background-size: cover;
   }
 
@@ -49,7 +49,12 @@ body {
   }
 
   .sixthBack{
-    background-image: url("../Images/destroyer.jpg");
+    background-image: url("../Images/express.png");
+    background-size: cover;
+  }
+
+  .seventhBack{
+    background-image: url("../Images/bucketlist.png");
     background-size: cover;
   }
 
