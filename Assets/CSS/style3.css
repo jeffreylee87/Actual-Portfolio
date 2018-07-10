@@ -36,11 +36,13 @@ body {
 .thirdBack {
     background-image: url("../Images/hangman.jpg");
     background-size: cover;
+    text-shadow: 2px 2px 4px red;
   }
 
   .fourthBack {
     background-image: url("../Images/matrix2.jpg");
     background-size: cover;
+    text-shadow: 4px 4px 4px #000000;
   }
 
   .fifthBack{
@@ -55,6 +57,17 @@ body {
 
   .seventhBack{
     background-image: url("../Images/bucketlist.png");
+    background-size: cover;
+    text-shadow: 4px 4px 4px #000000
+  }
+
+  .eighthBack {
+    background-image: url("../Images/google.png");
+    background-size: cover;
+  }
+
+  .nineBack {
+    background-image: url("../Images/rams.jpg");
     background-size: cover;
   }
 
