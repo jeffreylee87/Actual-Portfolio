@@ -71,6 +71,12 @@ body {
     background-size: cover;
   }
 
+  .tenBack {
+    background-image: url("../Images/clickGame.png");
+    background-size: cover;
+    text-shadow: 2px 2px 4px red;
+  }
+
   .btn-large {
     margin: 2%;
   }
