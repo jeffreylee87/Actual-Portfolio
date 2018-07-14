@@ -72,7 +72,7 @@ body {
   }
 
   .tenBack {
-    background-image: url("../Images/clickGame.png");
+    background-image: url("../Images/clicker.png");
     background-size: cover;
     text-shadow: 2px 2px 4px red;
   }
