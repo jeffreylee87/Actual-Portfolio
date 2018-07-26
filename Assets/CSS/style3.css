@@ -27,11 +27,11 @@ body {
     color: black;
   }
 
-  @media only screen and (max-width: 699px) {
+  /* @media only screen and (max-width: 699px) {
     .secondBack {
         background-size: 360px 360px;
     }
-}
+} */
 
 .thirdBack {
     background-image: url("../Images/hangman.jpg");
@@ -40,9 +40,12 @@ body {
   }
 
   .fourthBack {
-    background-image: url("../Images/matrix2.jpg");
+    background-image: url("../Images/react.jpg");
     background-size: cover;
+    background-repeat: none;
     text-shadow: 4px 4px 4px #000000;
+    
+
   }
 
   .fifthBack{
